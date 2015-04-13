@@ -5,8 +5,8 @@ body {
   font-size: 1em;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
-div {
-  border: 1px solid blue;
+/*div {
+  border: 1px solid blue;*/
 }
 a:link {
   color: #ffffff;
@@ -141,7 +141,6 @@ ul{
 div.img {
   margin: 5px;
   padding: 5px;
-  border: 1px solid #0000ff;
   height: auto;
   width: auto;
   float: left;
@@ -161,8 +160,12 @@ div.caption {
   color:#ffffff;
   font-size: 1em;
   width: 15em;
+  height: 1.5em;
   border-radius:1.25rem;
   margin: 0 auto;
+}
+.projects-section div a:link {
+text-decoration: none;
 }
 .content-footer{
   text-align: center;
